@@ -1,0 +1,12 @@
+com.kabat.photos.Application=org.springframework.stereotype.Component
+com.kabat.photos.controller.LoginRestController=org.springframework.stereotype.Component
+com.kabat.photos.controller.PhotoRestController=org.springframework.stereotype.Component
+com.kabat.photos.controller.UsuarioRestController=org.springframework.stereotype.Component
+com.kabat.photos.entity.Photo=javax.persistence.Entity,javax.persistence.Table,javax.persistence.NamedQuery
+com.kabat.photos.entity.Usuario=javax.persistence.Entity,javax.persistence.Table,javax.persistence.NamedQuery
+com.kabat.photos.repository.PhotoRepository=org.springframework.stereotype.Component,org.springframework.data.repository.Repository
+com.kabat.photos.repository.UsuarioRepository=org.springframework.stereotype.Component,org.springframework.data.repository.Repository
+com.kabat.photos.service.impl.LoginImpl=org.springframework.stereotype.Component
+com.kabat.photos.service.impl.PhotoImpl=org.springframework.stereotype.Component
+com.kabat.photos.service.impl.UsuarioImpl=org.springframework.stereotype.Component
+com.kabat.photos.utils.SwaggerConfig=org.springframework.stereotype.Component
